@@ -6,3 +6,14 @@ body {
 a {
   color: #00B7FF;
 }
+
+.sign-in {
+    z-index: 100000;
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    cursor: pointer;
+}
