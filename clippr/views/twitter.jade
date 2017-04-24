@@ -3,14 +3,14 @@ html(lang='en')
   head
     meta(charset='utf-8')
     meta(content='width=device-width, initial-scale=1, user-scalable=no', name='viewport')
-    meta(content='Ask fitness experts questions, receive video answers', name='description')
+    meta(content='Your movie database', name='description')
     meta(content='app-id=1167827483, app-argument= ://', name='apple-itunes-app')
     meta(content='', name='google-site-verification')
     meta(property='og:site_name', content='You&A')
     meta(property='og:title', content='Answer by #{data.question.answerer_name}')
     meta(property='og:description', content='#{data.creator.tag_line}')
     meta(property='og:type', content='website')
-    meta(property='og:url', content='https://youna.io/q/#{data.question.question_id}')
+    meta(property='og:url', content='https://google.com')
     meta(property='og:image', content='https://s3.amazonaws.com/defaultstuff/logo.png')
     meta(property='og:image:type', content='image/png')
     meta(property='og:image:width', content='360')
@@ -21,10 +21,8 @@ html(lang='en')
     meta(property='og:video:width', content='360')
     meta(property='og:video:height', content='540')
     meta(name='twitter:card', content='player')
-    meta(name='twitter:site', content='@youna_app')
     meta(name='twitter:title', content='Answer By #{data.question.answerer_name}')
     meta(name='twitter:description', content='#{data.creator.tag_line}')
-    meta(name='twitter:creator', content='@youna_app')
     meta(name='twitter:player', content='https://youna.io/q/twitter/#{data.question.question_id}')
     meta(name='twitter:player:width', content='360')
     meta(name='twitter:player:height', content='540')
@@ -51,8 +49,8 @@ html(lang='en')
           .q-container
             .question.q-one
               .top
-                a.button.rounded.medium.bkg-white.download-app(target="_blank",href="https://itunes.apple.com/us/app/you-fitness-video-questions/id1167827483?mt=8")
-                  span Download You&A
+                a.button.rounded.medium.bkg-white.download-app(target="_blank",href="https://itunes.apple.com/")
+                  span Download Clippr
               .test
                 .question-top
                   .q-image
@@ -71,9 +69,9 @@ html(lang='en')
               .q-one-sub
                 a(href='/')
                     img(src='../../images/logo.png', alt='Warhol Logo', class="q-logo")
-                h6.title-small.color-white.q-slogan NO BULLSH*T FITNESS ADVICE
-                p.lead.mb-30.q-subtext(style="font-weight:100") Ask experts questions, get video answers.
-                a.button.rounded.medium.bkg-white.download-app(target="_blank",href="https://itunes.apple.com/us/app/you-fitness-video-questions/id1167827483?mt=8")
+                h6.title-small.color-white.q-slogan YOUR MOVIE DATABASE
+                p.lead.mb-30.q-subtext(style="font-weight:100") Keep track of all of your shows
+                a.button.rounded.medium.bkg-white.download-app(target="_blank",href="https://itunes.apple.com/")
                   span Download App
                 br
                 .column.width-12.text-me-container(style="padding-right:0px;text-align:center")
@@ -86,16 +84,16 @@ html(lang='en')
               .column.width-12
                 .footer-bottom-inner
                   p.copyright.pull-left.clear-float-on-mobile
-                    | © You&A LLC. All Rights Reserved.
+                    | © Clippr LLC. All Rights Reserved.
                   ul.social-list.list-horizontal.pull-right.clear-float-on-mobile.left
                     li
-                      a(href='https://twitter.com/youna_app')
+                      a(href='https://twitter.com/')
                         span.icon-twitter-with-circle.medium.grey
                     li
-                      a(href='https://www.instagram.com/youna_app/')
+                      a(href='https://www.instagram.com/')
                         span.icon-instagram-with-circle.medium.grey
                     li
-                      a(href='https://www.facebook.com/younaapp/')
+                      a(href='https://www.facebook.com/')
                         span.icon-facebook-with-circle.medium.grey
                     li
                       a(href='mailto:info@youna.io?Subject=Hello')

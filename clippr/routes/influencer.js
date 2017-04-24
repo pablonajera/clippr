@@ -57,6 +57,11 @@ exports.update_profile_picture = function(req, res) {
 
   });
 }
+
+exports.shows = function(req, res) {
+  res.render('shows');
+}
+
 exports.add_info = function(req, res) {
 
   var data = req.body;

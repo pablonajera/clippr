@@ -45,7 +45,8 @@ app.get('/paid', routes.paid)
    .post('/paid', routes.add_user_to_paid);
 app.get('/u/:id', user.display)
 app.get('/profile', routes.profile);
-app.get('/update', routes.update)
+app.get('/update', routes.update);
+app.get('/shows',  influencer.shows);
 app.get('*', function(req, res){
   res.redirect('/');
 });
