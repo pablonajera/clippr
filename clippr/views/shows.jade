@@ -33,7 +33,7 @@ block content
                           h1.mb-40 Breaking Bad
                           p
                             | Mild-mannered high school chemistry teacher Walter White thinks his life can't get much worse. His salary barely makes ends meet, a situation not likely to improve once his pregnant wife gives birth, and their teenage son is battling cerebral palsy. But Walter is dumbstruck when he learns he has terminal cancer. Realizing that his illness probably will ruin his family financially, Walter makes a desperate bid to earn as much money as he can in the time he has left by turning an old RV into a meth lab on wheels.
-                          button Recommend to a Friend
+                          a.lightbox-link.button.rounded.bkg-theme.bkg-hover-green.color-white.color-hover-white(data-content='inline', data-aux-classes='tml-newsletter-modal tml-exit-light rounded', data-toolbar='', data-modal-mode='', data-modal-width='600', data-lightbox-animation='fadeIn', href='#subscribe-modal') Recommend to friends
                           br
                           br
                           h3 Currently Watching
@@ -46,56 +46,82 @@ block content
                           br
                           h3 Your Status 
                           h6 Season 4 Episode 6 
-                          button Update Status
+                          a.lightbox-link.button.rounded.bkg-theme.bkg-hover-green.color-white.color-hover-white(data-content='inline', data-aux-classes='tml-newsletter-modal tml-exit-light rounded', data-toolbar='', data-modal-mode='', data-modal-width='600', data-lightbox-animation='fadeIn', href='#update-status-modal') Update Status
+                          .section-block.pt-60.pb-0
+                          #subscribe-modal.section-block.pt-0.pb-30.background-none.hide
+                            // Intro Title Section 2
+                            .section-block.intro-title-2-1.xsmall.bkg-grey-ultralight
+                              .media-overlay.bkg-black.opacity-08
+                              .row
+                                .column.width-12
+                                  .title-container
+                                    .title-container-inner.center.color-white
+                                      h1.title-medium.mb-0 Friends
+                                      br
+                                      h6 Select friends to send it to
+                            .section-block.pt-60.pb-0
+                              .row
+                                .column.width-12.center
+                                  .signup-form-container
+                                    .row
+                                      .column.width-10.offset-1
+                                        ul.recommend-friends
+                                          li Mehul P
+                                          li Dhruv C
+                                          li Alexandar G
+                                          li Pablo N
+                                        button Send
+                          #update-status-modal.section-block.pt-0.pb-30.background-none.hide
+                            // Intro Title Section 2
+                            .section-block.intro-title-2-1.xsmall.bkg-grey-ultralight
+                              .media-overlay.bkg-black.opacity-08
+                              .row
+                                .column.width-12
+                                  .title-container
+                                    .title-container-inner.center.color-white
+                                      h1.title-medium.mb-0 Update Status
+                                      br
+                                      h6 Select friends to send it to
+                            .section-block.pt-60.pb-0
+                              .row
+                                .column.width-12.center
+                                  .signup-form-container
+                                    .row
+                                      .column.width-10.offset-1
+                                        p Season & Episode
+                                        h5 Season
+                                        select.show-select
+                                          option 1
+                                          option 2
+                                          option 3
+                                          option 4
+                                          option 5
+                                        br
+                                        br
+                                        h5 Episode 
+                                        select.show-select
+                                          option 1
+                                          option 2
+                                          option 3
+                                          option 4
+                                          option 5
+                                          option 6
+                                          option 7
+                                          option 8
+                                          option 9
+                                          option 10
+                                          option 11
+                                          option 12
+                                          option 13
+                                          option 14
+                                          option 15
+                                          option 16
+                                          option 17
+
+
+
                   img(data-src='images/slider/bb.jpg', data-retina='', src='images/blank.png', alt='')
-                li.tms-slide.right(data-image='', data-as-bkg-image='', data-image-wrapper='media-column', data-nav-dark='')
-                  .media-column.width-6
-                  .row
-                    .tms-caption.hero-content.split-hero-content.column.width-5.no-transition(data-no-scale='')
-                      .hero-content-inner.left
-                        .tms-content-scalable
-                          h1.mb-40 Breaking Bad
-                          p
-                            | Mild-mannered high school chemistry teacher Walter White thinks his life can't get much worse. His salary barely makes ends meet, a situation not likely to improve once his pregnant wife gives birth, and their teenage son is battling cerebral palsy. But Walter is dumbstruck when he learns he has terminal cancer. Realizing that his illness probably will ruin his family financially, Walter makes a desperate bid to earn as much money as he can in the time he has left by turning an old RV into a meth lab on wheels.
-                          button Recommend to a Friend
-                          br
-                          br
-                          h3 Currently Watching
-                          ul
-                            li Mehul P
-                            li Pablo N
-                            li Dhruv C
-                            li Alexandar G
-                          br
-                          br
-                          h3 Your Status 
-                          h6 Season 4 Episode 6 
-                          button Update Status
-                  img(data-src='images/slider/bb.jpg', data-retina='', src='images/blank.png', alt='')
-                li.tms-slide.right(data-image='', data-as-bkg-image='', data-image-wrapper='media-column', data-nav-dark='')
-                  .media-column.width-6
-                  .row
-                    .tms-caption.hero-content.split-hero-content.column.width-5.no-transition(data-no-scale='')
-                      .hero-content-inner.left
-                        .tms-content-scalable
-                          h1.mb-40 Breaking Bad
-                          p
-                            | Mild-mannered high school chemistry teacher Walter White thinks his life can't get much worse. His salary barely makes ends meet, a situation not likely to improve once his pregnant wife gives birth, and their teenage son is battling cerebral palsy. But Walter is dumbstruck when he learns he has terminal cancer. Realizing that his illness probably will ruin his family financially, Walter makes a desperate bid to earn as much money as he can in the time he has left by turning an old RV into a meth lab on wheels.
-                          button Recommend to a Friend
-                          br
-                          br
-                          h3 Currently Watching
-                          ul
-                            li Mehul P
-                            li Pablo N
-                            li Dhruv C
-                            li Alexandar G
-                          br
-                          br
-                          h3 Your Status 
-                          h6 Season 4 Episode 6 
-                          button Update Status
-                  img(data-src='images/slider/bb.jpg', data-retina='', src='images/blank.png', alt='')
+
     script(src='https://code.jquery.com/jquery-1.12.4.js')
     script(src='https://code.jquery.com/ui/1.12.0/jquery-ui.js')
     script(src='https://apis.google.com/js/api.js')

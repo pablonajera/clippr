@@ -1950,15 +1950,7 @@ label.emphasized {
 }
 
 select {
-    width: 100%;
-    background: 0 0;
-    border: 0;
-    border-radius: 0;
-    color: inherit;
-    font-size: inherit;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none
+
 }
 
 .form-select {
@@ -14831,4 +14823,18 @@ body.boxed .blog-masonry.full-width [class*=content-grid] {
     [class*=pd-] {
         top: 0
     }
+}
+
+.recommend-friends li {
+    padding: 10px !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+.recommend-friends li:hover {
+    cursor: pointer;
+}
+
+.show-select {
+    -webkit-appearance
 }

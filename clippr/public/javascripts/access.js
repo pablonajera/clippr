@@ -2,6 +2,12 @@ $('document').ready(function(){
 
   $('.message').html("");
 
+
+  $('.recommend-friends li').click(function() {
+    console.log("a");
+    $(this).css("background-color", "rgba(0,0,0,.8)");
+    $(this).css("color", "white");
+  });
   $('#text').click(function() {
       var number = $('.number').val();
       var len = number.length;
@@ -319,6 +325,7 @@ $('document').ready(function(){
 
 
 });
+
 
 
 
